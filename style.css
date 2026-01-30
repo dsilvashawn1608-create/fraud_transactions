@@ -1,0 +1,113 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Page background */
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    text-align: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+/* Name on top */
+h2 {
+    text-align: right;
+    font-weight: 400;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+
+/* Horizontal line */
+hr {
+    margin: 20px auto;
+    width: 90%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Main heading */
+h1 {
+    margin: 40px 0;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+/* Get Started button */
+#1608 {
+    padding: 18px 60px;
+    font-size: 2.2rem;
+    border: none;
+    border-radius: 12px;
+    background: #00c6ff;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#1608:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Essentials section */
+.essentials {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Essentials buttons */
+.essentials button {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.essentials button:hover {
+    background-color: #666;
+    transform: scale(1.05);
+}
+
+/* Social links section */
+.socials {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Social buttons */
+.socials button {
+    padding: 10px 22px;
+    border-radius: 25px;
+    border: none;
+    background-color: #ffffff;
+    color: #203a43;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.socials button:hover {
+    background-color: #00c6ff;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Remove underline from links */
+a {
+    text-decoration: none;
+}

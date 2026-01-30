@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pymongo
+redis
+pandas
+scikit-learn
+joblib
